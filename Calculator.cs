@@ -15,18 +15,18 @@ namespace Calculator
 {
     public class Operation
     {
-        private double num_1;
-        private double num_2;
+        private double _num1;
+        private double _num2;
 
         public double num1
         {
-            get { return num1; }
-            set { num_1 = value; }
+            get { return _num1; }
+            set { _num1 = value; }
         }
         public double num2
         {
-            get { return num_2; }
-            set { num_2 = value; }
+            get { return _num2; }
+            set { _num2 = value; }
         }
         public virtual double getResult()
         {
